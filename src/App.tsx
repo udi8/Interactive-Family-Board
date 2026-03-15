@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Interactive-Family-Board">
       <FamilyProvider>
         <ShoppingProvider>
           <WeatherProvider>
